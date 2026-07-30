@@ -1,22 +1,58 @@
 aid: madrone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/madrone.png
 name: Madrone
-description: Madrone is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Madrone is a data center cooling technology company (Y Combinator Spring 2026,
+  NVIDIA Inception) building modular thermodynamic cooling systems that sit
+  outside the data center and chill water to the dew point, eliminating the need
+  for mechanical chillers and cooling towers. The company claims roughly 30% less
+  power and water than a conventional chiller-plus-cooling-tower setup in Texas
+  installations, freeing that power and capital for additional GPU compute. It is
+  an early-stage hardware and infrastructure company with a sales-and-partnerships
+  motion; as of this profiling it publishes no public API, developer portal, SDKs,
+  documentation, or other machine-readable developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/madrone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- nvidia-inception
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: data-center-cooling
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Center
+- Cooling
+- Infrastructure
+- Energy Efficiency
+- Hardware
+- Thermal Management
 apis: []
+common:
+- type: Website
+  url: https://madrone.cool/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
