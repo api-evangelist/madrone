@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "madrone",
+    "captured_at": "2026-10-11T190448",
+    "source_url": "https://madrone.cool/",
+    "source_type": "Website",
+    "file": "madrone-2026-10-11T190448.png",
+    "bytes": 1156483,
+    "capture": "playwright-local"
+  }
+]
